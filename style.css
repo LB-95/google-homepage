@@ -1,0 +1,127 @@
+header{
+  display:block;
+  position:fixed;
+  top:0;
+  width:101%;
+  height:40px;
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: auto;
+  left:-25px;
+}
+.hl{
+  display: inline;
+  float: left;
+  margin: 10px;
+  
+}
+.hd{
+  display:inline;
+float:right;
+  margin:10px;
+  margin-top:-5px;
+  
+  
+}
+a{
+  text-decoration: none;
+  color:rgb(70,70,70);
+  font-size: 15px;
+}
+a:hover{
+  text-decoration: underline;
+}
+
+
+
+footer{
+  position: fixed;
+  bottom: 0;
+  width: 101%;
+  height: 40px;
+  border-top: 1px solid #e4e4e4;
+  border-bottom: 7px solid rgb(244, 244, 244);
+  background: rgb(244, 244, 244);
+  left: -25px;
+  
+  
+}
+.fd{
+  display:inline;
+  float:right;
+  margin:10px;
+  bottom:0;
+}
+.fl{
+  display: inline;
+  float: left;
+  margin:10px;
+  bottom:0;
+  
+}
+
+img{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width:272px;
+  height:92px;
+  padding-top:92px;
+}
+input{
+  display:block;
+  margin-top:37px;
+  margin-left:auto;
+  margin-right:auto;
+  width:450px;
+  height:34px;
+  font: 16px arial,sans-serif;
+  letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+  border-radius:60px;
+  border:1px solid;
+  padding:5px 20px;
+  
+  
+}
+.sign-in{
+  background-color: #4d65f1;
+  justify-content: right;
+  border: none;
+  border-radius:0.3em;
+  display:inline;
+  float:right;
+  padding:0.5em;
+  margin-left:16px;
+}
+.sign-in:hover{
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.sign-in a{
+  color: white;
+  padding: .5em;
+  width: 70px;
+}
+.button-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.button{
+  margin: 0.5em;
+  padding: 0.7em;
+  width: 140px;
+  background-color: #e2e2e2;
+  border: 1px solid #e2e2e2;
+  border-radius: 0.4em;
+}
+.button:hover{
+  cursor: pointer;
+  border: 1px solid rgb(187, 187, 187);
+}
